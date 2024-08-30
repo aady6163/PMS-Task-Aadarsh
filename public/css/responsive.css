@@ -1,0 +1,194 @@
+
+:root{
+
+    /* Background Color */
+    
+    --bg-black: #090b3c;
+    --bg-white: #fff;   
+    --bg-light-white: #fcfcfc;
+    --bg-light-2:#f2f7fa;
+    --bg-dark-green: #0e9d80;
+    --bg-features-1: #fff6d6;
+    --bg-features-2: #ebdcf9;
+    --bg-features-3:#ddf5fc;
+    --bg-features-4: #dcf6e8;
+    --bg-features-5: #f8e4e1;
+    --bg-features-6:#fbffd4;
+    
+    --text-black: #0000;
+    --text-white: #fff;
+    --text-dark-gray: #4c535d;
+    --text-light-2: #798089;
+    --text-light-3: #5e5e72;
+    --text-light-4: #ΑΘΑΘΑΘΕ;
+    --text-dark-green: #12c4a0;
+    --text-orange: #ff5d2a;
+
+    --primary-font : 'Quicksand', sans-serif;
+    --secondary-fons:'Poppins' , 'sans-serif';
+    --normal-font-weight:400;
+    --bold-font-weight:700;
+
+
+}
+
+
+@media  (max-width: 1300px) {
+    .header_wrappeer .menu-navbar-nav{
+        width: auto;
+    }
+}
+
+
+@media   (max-width: 1230px)  {
+    .header_wrappeer .nav-item{
+        margin: 0 5px;
+    }
+
+    .header_wrappeer .learn-more-about{
+        padding: 12px 10px !important;
+    }
+
+    .banner_wrapper .banner-title{
+        font-size: 50px;
+    }
+
+    .about_wrapper .about_text{
+        font-size: 15px;
+        font-weight: 450;
+    }
+
+
+    .about_wrapper .about_number{
+       
+        font-weight: 600;
+        font-size: 18px;
+        padding: 2px 10px;
+       
+        margin-bottom: 15px;
+      
+    
+    }
+}
+
+@media  (max-width: 1070px)  {
+    .header_wrappeer .nav-item .nav-link{
+       font-size: 16px;
+    }
+
+    .about_wrapper .about_title{
+        font-size: 16px;
+
+    }
+
+    .form-control{
+        padding: 8px;
+      }
+
+      .contact-heading{
+        font-size: 2rem;
+      }
+
+    
+}
+
+
+@media  (max-width: 991px) {
+    .header_wrappeer .navbar-brand img{
+        width:170px;
+    }
+
+    .header_wrappeer .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header_wrappeer .menu-navbar-nav{
+        text-align: center;
+    }
+    .header_wrappeer .nav-item .nav-link{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    .header_wrappeer .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+
+    .header_wrappeer .learn-more-about{
+        padding: 12px 29px !important;
+    }
+
+    
+    .header_wrappeer .navbar-collapse{
+        background: var(--bg-white);
+    }
+
+    .banner_wrapper .banner-title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .banner_wrapper .banner-title-text{
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .banner_wrapper .learn-more-btn{
+        font-size: 13px;
+        
+    }
+
+    .about_wrapper .about_number{
+         margin: 20px auto;
+    }
+   
+    .about_wrapper .about_title{
+        font-size: 24px;
+    }
+
+    .service_wrapper .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+      }
+    
+     .service_wrapper .feature {
+        width: 100%; 
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    
+     .service_wrapper .learn-more-btn-section {
+        text-align: center;
+      }
+
+      .form-control{
+        padding: 5px;
+      }
+
+      .contact-heading{
+        font-size: 1.3rem;
+      }
+
+  
+}
+
+@media  (max-width: 767px) {
+
+    .banner_wrapper{
+        padding: 100px 0 100px;
+    }
+
+    .banner_wrapper .row{
+     flex-direction: column-reverse;
+    }
+    .banner_wrapper .learn-more-btn-section{
+        justify-content: center;
+    }
+
+    .learn-more-btn{
+        padding: 9px 22px !important;
+        font-size: 13px;
+    font-weight: 500;
+    }
+    
+}
